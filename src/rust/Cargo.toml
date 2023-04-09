@@ -1,11 +1,11 @@
 [package]
-name = "stellar-core"
+name = "gramr"
 version = "0.1.0"
 edition = "2021"
 rust-version = "1.67"
 
 [lib]
-name = "rust_stellar_core"
+name = "rust_gramr"
 crate-type = ["staticlib"]
 
 [dependencies]
