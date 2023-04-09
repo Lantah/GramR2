@@ -171,7 +171,7 @@ CommandHandler::manualCmd(std::string const& cmd)
 void
 CommandHandler::fileNotFound(std::string const& params, std::string& retStr)
 {
-    retStr = "<b>Welcome to stellar-core!</b><p>";
+    retStr = "<b>Welcome to GramR!</b><p>";
     retStr +=
         "Supported HTTP commands are listed in the <a href=\""
         "https://github.com/stellar/stellar-core/blob/master/docs/software/"
@@ -1041,7 +1041,7 @@ CommandHandler::generateLoad(std::string const& params, std::string& retStr)
     else
     {
         retStr = "Set ARTIFICIALLY_GENERATE_LOAD_FOR_TESTING=true in "
-                 "the stellar-core.cfg if you want this behavior";
+                 "the gramr.cfg if you want this behavior";
     }
 }
 
