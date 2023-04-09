@@ -21,7 +21,7 @@
 #include "main/ExternalQueue.h"
 #include "main/Maintainer.h"
 #include "main/PersistentState.h"
-#include "main/StellarCoreVersion.h"
+#include "main/GramrVersion.h"
 #include "overlay/OverlayManager.h"
 #include "util/GlobalChecks.h"
 #include "util/Logging.h"
@@ -183,7 +183,7 @@ setupApp(Config& cfg, VirtualClock& clock, uint32_t startAtLedger,
         setupMinimalDBForInMemoryMode(cfg, startAtLedger);
     }
 
-    LOG_INFO(DEFAULT_LOG, "Starting stellar-core {}", STELLAR_CORE_VERSION);
+    LOG_INFO(DEFAULT_LOG, "Starting GramR {}", GRAMR_VERSION);
     Application::pointer app;
     app = Application::create(clock, cfg, false);
     if (!app->getHistoryArchiveManager().checkSensibleConfig())
@@ -820,7 +820,7 @@ catchup(Application::pointer app, CatchupConfiguration cc,
                  app->getLedgerManager().getLastClosedLedgerNum());
         LOG_INFO(
             DEFAULT_LOG,
-            "* If you really want to catchup to {} run stellar-core new-db",
+            "* If you really want to catchup to {} run gramr new-db",
             cc.toLedger());
         LOG_INFO(DEFAULT_LOG, "*");
         return 2;
