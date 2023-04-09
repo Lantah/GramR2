@@ -6,7 +6,7 @@
 # of this distribution or at http://www.apache.org/licenses/LICENSE-2.0
 
 AC_PREREQ([2.68])
-AC_INIT([stellar-core],[0.1],[],[],[http://www.stellar.org])
+AC_INIT([gramr],[0.1],[],[],[http://www.stellar.org])
 # tar-ustar is required for long file names when libsodium is bundled
 AM_INIT_AUTOMAKE([-Wall -Wextra -Wconversion subdir-objects tar-ustar silent-rules])
 AC_CONFIG_SRCDIR([configure.ac])
@@ -405,7 +405,7 @@ if test x"$enable_libunwind" != xno; then
             # differently when ELF-interposed with one another, in the same binary.
             #
             # Haven't been able to make a reduced testcase that works. You can check
-            # that this is still a problem by running the stellar-core Catch2-based
+            # that this is still a problem by running the GramR Catch2-based
             # unit test suite: many of the tests do REQUIRE_THROWS_AS(...) and
             # that crashes with libunwind+clang.  Haven't been able to figure out a
             # workaround either.
