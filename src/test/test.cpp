@@ -16,7 +16,7 @@
 #include "ledger/LedgerTxn.h"
 #include "ledger/LedgerTxnHeader.h"
 #include "main/Config.h"
-#include "main/GramRVersion.h"
+#include "main/GramrVersion.h"
 #include "main/dumpxdr.h"
 #include "test.h"
 #include "test/TestUtils.h"
