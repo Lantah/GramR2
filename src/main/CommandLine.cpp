@@ -17,7 +17,7 @@
 #include "main/Diagnostics.h"
 #include "main/ErrorMessages.h"
 #include "main/PersistentState.h"
-#include "main/GramRVersion.h"
+#include "main/GramrVersion.h"
 #include "main/dumpxdr.h"
 #include "overlay/OverlayManager.h"
 #ifdef ENABLE_NEXT_PROTOCOL_VERSION_UNSAFE_FOR_PRODUCTION
