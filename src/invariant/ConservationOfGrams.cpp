@@ -2,7 +2,7 @@
 // under the Apache License, Version 2.0. See the COPYING file at the root
 // of this distribution or at http://www.apache.org/licenses/LICENSE-2.0
 
-#include "invariant/ConservationOfLumens.h"
+#include "invariant/ConservationOfGrams.h"
 #include "invariant/InvariantManager.h"
 #include "ledger/LedgerTxn.h"
 #include "main/Application.h"
@@ -97,24 +97,24 @@ calculateDeltaBalance(
     return 0;
 }
 
-ConservationOfLumens::ConservationOfLumens() : Invariant(false)
+ConservationOfGrams::ConservationOfGrams() : Invariant(false)
 {
 }
 
 std::shared_ptr<Invariant>
-ConservationOfLumens::registerInvariant(Application& app)
+ConservationOfGrams::registerInvariant(Application& app)
 {
-    return app.getInvariantManager().registerInvariant<ConservationOfLumens>();
+    return app.getInvariantManager().registerInvariant<ConservationOfGrams>();
 }
 
 std::string
-ConservationOfLumens::getName() const
+ConservationOfGrams::getName() const
 {
-    return "ConservationOfLumens";
+    return "ConservationOfGrams";
 }
 
 std::string
-ConservationOfLumens::checkOnOperationApply(Operation const& operation,
+ConservationOfGrams::checkOnOperationApply(Operation const& operation,
                                             OperationResult const& result,
                                             LedgerTxnDelta const& ltxDelta)
 {

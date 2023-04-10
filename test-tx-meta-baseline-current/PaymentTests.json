@@ -324,7 +324,7 @@
 	"payment fees|protocol version 9|fee equal to base reserve|account has only base reserve + amount + two operation fees" : [ "TuClNPrRGxk=", "4M45xdCfU4g=" ],
 	"payment fees|protocol version 9|fee equal to base reserve|account has only base reserve + amount + two operation fees - one stroop" : [ "+6aPTtGYALI=", "oAORp8iwyks=" ],
 	"payment fees|protocol version 9|fee equal to base reserve|account has only base reserve + amount + two operation fees - two stroops" : [ "7mamB+UpHQ8=", "C7h946KNAdI=" ],
-	"payment|protocol version 0" : 
+	"payment|protocol version 0" :
 	[
 		"c8f9ZedQpBg=",
 		"QSSZ34e/T04=",
@@ -447,7 +447,7 @@
 	"payment|protocol version 0|pay, merge, create, pay, 2 accounts" : [ "HRGCodA7j/g=", "RAypWQQnHp8=" ],
 	"payment|protocol version 0|pay, merge, create, pay, 3 accounts" : [ "HRGCodA7j/g=", "QQI/BCkhfPw=", "yPVJj9156JA=" ],
 	"payment|protocol version 0|pay, merge, create, pay, self" : [ "HRGCodA7j/g=", "RAypWQQnHp8=" ],
-	"payment|protocol version 0|simple credit|with trust" : 
+	"payment|protocol version 0|simple credit|with trust" :
 	[
 		"rn0Xn7J6AGQ=",
 		"/dSr+CMGqew=",
@@ -459,7 +459,7 @@
 		"vCmlwgzENn4="
 	],
 	"payment|protocol version 0|two payments, first breaking second" : [ "ns4DM4E40Nw=" ],
-	"payment|protocol version 1" : 
+	"payment|protocol version 1" :
 	[
 		"c8f9ZedQpBg=",
 		"QSSZ34e/T04=",
@@ -633,7 +633,7 @@
 		"QSSZ34e/T04=",
 		"T0knWJy5Xlc="
 	],
-	"payment|protocol version 10" : 
+	"payment|protocol version 10" :
 	[
 		"I474xQR5RsE=",
 		"e7Zez2QGtOo=",
@@ -809,7 +809,7 @@
 	],
 	"payment|protocol version 10|a pays b, then a merge into b" : [ "x4SxPEw66wc=", "vU/ZTX5etSo=" ],
 	"payment|protocol version 10|a pays b, then b merge into a" : [ "x4SxPEw66wc=", "AU3gWWyzk/Q=" ],
-	"payment|protocol version 10|authorize flag|allow trust" : 
+	"payment|protocol version 10|authorize flag|allow trust" :
 	[
 		"Xc89Gq6UsJY=",
 		"Dsi9XnfdQCo=",
@@ -834,7 +834,7 @@
 	"payment|protocol version 10|fee less than base reserve|account has only base reserve + amount + two operation fees - one stroop" : [ "QR9Q79n8+XI=", "UoFk3SPHe0I=" ],
 	"payment|protocol version 10|fee less than base reserve|account has only base reserve + amount + two operation fees - two stroops" : [ "tzRA2Lzuv0U=", "iXJrzy6WJPE=" ],
 	"payment|protocol version 10|issuer large amounts" : [ "w3rgHjxWLnM=", "Q715ZhLo0pc=", "luRKe4TjlF8=" ],
-	"payment|protocol version 10|liabilities|cannot pay balance below selling liabilities" : 
+	"payment|protocol version 10|liabilities|cannot pay balance below selling liabilities" :
 	[
 		"Lt3z/g3YlAA=",
 		"WQWWB7Jbrf4=",
@@ -850,9 +850,9 @@
 	"payment|protocol version 10|pay, merge, create, pay, 3 accounts" : [ "hCcUSmkrzmg=", "12ojMDukd9Y=", "KSTzIep9kJ0=", "ZdjOBetjzeM=" ],
 	"payment|protocol version 10|pay, merge, create, pay, self" : [ "hCcUSmkrzmg=", "1xYgwTStEM0=", "o8eHJQKdaHg=" ],
 	"payment|protocol version 10|rescue account (was below reserve)" : [ "/J8iGd0Hlhc=", "Xh6gAscZdJs=", "hb0znJOdm+4=", "7x0+qIuSa/E=" ],
-	"payment|protocol version 10|send XLM to a new account (no destination)" : [ "ruPxFaUx7lE=" ],
-	"payment|protocol version 10|send XLM to an existing account" : [ "RQcfU0yHP7k=" ],
-	"payment|protocol version 10|send to self" : 
+	"payment|protocol version 10|send GRAM to a new account (no destination)" : [ "ruPxFaUx7lE=" ],
+	"payment|protocol version 10|send GRAM to an existing account" : [ "RQcfU0yHP7k=" ],
+	"payment|protocol version 10|send to self" :
 	[
 		"qGQU6AOuEa0=",
 		"RMFj8J+1o14=",
@@ -981,7 +981,7 @@
 	"payment|protocol version 10|send to self|non existing asset with non existing issuer|without trustline" : [ "inLFyizjr1w=" ],
 	"payment|protocol version 10|simple credit|credit payment with no trust" : [ "e2l2fRwlI8I=" ],
 	"payment|protocol version 10|simple credit|credit sent to new account (no account error)" : [ "e2l2fRwlI8I=" ],
-	"payment|protocol version 10|simple credit|with trust" : 
+	"payment|protocol version 10|simple credit|with trust" :
 	[
 		"2k2kKI5Y8kI=",
 		"Rbf4F1DPur4=",
@@ -992,7 +992,7 @@
 		"0eG4nRofXCs=",
 		"qmUOQwEJ0w8="
 	],
-	"payment|protocol version 10|simple credit|with trust|missing issuer" : 
+	"payment|protocol version 10|simple credit|with trust|missing issuer" :
 	[
 		"mC4D9/sVfXo=",
 		"DVQfSXCqaKM=",
@@ -1003,7 +1003,7 @@
 	],
 	"payment|protocol version 10|simple credit|with trust|positive" : [ "4rxlhWSkAKI=", "OoCI2N0zqgo=" ],
 	"payment|protocol version 10|two payments, first breaking second" : [ "/0FvQZGicBI=" ],
-	"payment|protocol version 11" : 
+	"payment|protocol version 11" :
 	[
 		"I474xQR5RsE=",
 		"e7Zez2QGtOo=",
@@ -1179,7 +1179,7 @@
 	],
 	"payment|protocol version 11|a pays b, then a merge into b" : [ "x4SxPEw66wc=", "vU/ZTX5etSo=" ],
 	"payment|protocol version 11|a pays b, then b merge into a" : [ "x4SxPEw66wc=", "AU3gWWyzk/Q=" ],
-	"payment|protocol version 11|authorize flag|allow trust" : 
+	"payment|protocol version 11|authorize flag|allow trust" :
 	[
 		"Xc89Gq6UsJY=",
 		"Dsi9XnfdQCo=",
@@ -1204,7 +1204,7 @@
 	"payment|protocol version 11|fee less than base reserve|account has only base reserve + amount + two operation fees - one stroop" : [ "QR9Q79n8+XI=", "UoFk3SPHe0I=" ],
 	"payment|protocol version 11|fee less than base reserve|account has only base reserve + amount + two operation fees - two stroops" : [ "tzRA2Lzuv0U=", "iXJrzy6WJPE=" ],
 	"payment|protocol version 11|issuer large amounts" : [ "w3rgHjxWLnM=", "Q715ZhLo0pc=", "luRKe4TjlF8=" ],
-	"payment|protocol version 11|liabilities|cannot pay balance below selling liabilities" : 
+	"payment|protocol version 11|liabilities|cannot pay balance below selling liabilities" :
 	[
 		"Lt3z/g3YlAA=",
 		"WQWWB7Jbrf4=",
@@ -1220,9 +1220,9 @@
 	"payment|protocol version 11|pay, merge, create, pay, 3 accounts" : [ "hCcUSmkrzmg=", "12ojMDukd9Y=", "KSTzIep9kJ0=", "ZdjOBetjzeM=" ],
 	"payment|protocol version 11|pay, merge, create, pay, self" : [ "hCcUSmkrzmg=", "1xYgwTStEM0=", "o8eHJQKdaHg=" ],
 	"payment|protocol version 11|rescue account (was below reserve)" : [ "/J8iGd0Hlhc=", "Xh6gAscZdJs=", "hb0znJOdm+4=", "7x0+qIuSa/E=" ],
-	"payment|protocol version 11|send XLM to a new account (no destination)" : [ "ruPxFaUx7lE=" ],
-	"payment|protocol version 11|send XLM to an existing account" : [ "RQcfU0yHP7k=" ],
-	"payment|protocol version 11|send to self" : 
+	"payment|protocol version 11|send GRAM to a new account (no destination)" : [ "ruPxFaUx7lE=" ],
+	"payment|protocol version 11|send GRAM to an existing account" : [ "RQcfU0yHP7k=" ],
+	"payment|protocol version 11|send to self" :
 	[
 		"qGQU6AOuEa0=",
 		"RMFj8J+1o14=",
@@ -1351,7 +1351,7 @@
 	"payment|protocol version 11|send to self|non existing asset with non existing issuer|without trustline" : [ "inLFyizjr1w=" ],
 	"payment|protocol version 11|simple credit|credit payment with no trust" : [ "e2l2fRwlI8I=" ],
 	"payment|protocol version 11|simple credit|credit sent to new account (no account error)" : [ "e2l2fRwlI8I=" ],
-	"payment|protocol version 11|simple credit|with trust" : 
+	"payment|protocol version 11|simple credit|with trust" :
 	[
 		"2k2kKI5Y8kI=",
 		"Rbf4F1DPur4=",
@@ -1362,7 +1362,7 @@
 		"0eG4nRofXCs=",
 		"qmUOQwEJ0w8="
 	],
-	"payment|protocol version 11|simple credit|with trust|missing issuer" : 
+	"payment|protocol version 11|simple credit|with trust|missing issuer" :
 	[
 		"mC4D9/sVfXo=",
 		"DVQfSXCqaKM=",
@@ -1373,7 +1373,7 @@
 	],
 	"payment|protocol version 11|simple credit|with trust|positive" : [ "4rxlhWSkAKI=", "OoCI2N0zqgo=" ],
 	"payment|protocol version 11|two payments, first breaking second" : [ "/0FvQZGicBI=" ],
-	"payment|protocol version 12" : 
+	"payment|protocol version 12" :
 	[
 		"I474xQR5RsE=",
 		"e7Zez2QGtOo=",
@@ -1549,7 +1549,7 @@
 	],
 	"payment|protocol version 12|a pays b, then a merge into b" : [ "x4SxPEw66wc=", "vU/ZTX5etSo=" ],
 	"payment|protocol version 12|a pays b, then b merge into a" : [ "x4SxPEw66wc=", "AU3gWWyzk/Q=" ],
-	"payment|protocol version 12|authorize flag|allow trust" : 
+	"payment|protocol version 12|authorize flag|allow trust" :
 	[
 		"Xc89Gq6UsJY=",
 		"Dsi9XnfdQCo=",
@@ -1574,7 +1574,7 @@
 	"payment|protocol version 12|fee less than base reserve|account has only base reserve + amount + two operation fees - one stroop" : [ "QR9Q79n8+XI=", "UoFk3SPHe0I=" ],
 	"payment|protocol version 12|fee less than base reserve|account has only base reserve + amount + two operation fees - two stroops" : [ "tzRA2Lzuv0U=", "iXJrzy6WJPE=" ],
 	"payment|protocol version 12|issuer large amounts" : [ "w3rgHjxWLnM=", "Q715ZhLo0pc=", "luRKe4TjlF8=" ],
-	"payment|protocol version 12|liabilities|cannot pay balance below selling liabilities" : 
+	"payment|protocol version 12|liabilities|cannot pay balance below selling liabilities" :
 	[
 		"Lt3z/g3YlAA=",
 		"WQWWB7Jbrf4=",
@@ -1590,9 +1590,9 @@
 	"payment|protocol version 12|pay, merge, create, pay, 3 accounts" : [ "hCcUSmkrzmg=", "12ojMDukd9Y=", "KSTzIep9kJ0=", "ZdjOBetjzeM=" ],
 	"payment|protocol version 12|pay, merge, create, pay, self" : [ "hCcUSmkrzmg=", "1xYgwTStEM0=", "o8eHJQKdaHg=" ],
 	"payment|protocol version 12|rescue account (was below reserve)" : [ "/J8iGd0Hlhc=", "Xh6gAscZdJs=", "hb0znJOdm+4=", "7x0+qIuSa/E=" ],
-	"payment|protocol version 12|send XLM to a new account (no destination)" : [ "ruPxFaUx7lE=" ],
-	"payment|protocol version 12|send XLM to an existing account" : [ "RQcfU0yHP7k=" ],
-	"payment|protocol version 12|send to self" : 
+	"payment|protocol version 12|send GRAM to a new account (no destination)" : [ "ruPxFaUx7lE=" ],
+	"payment|protocol version 12|send GRAM to an existing account" : [ "RQcfU0yHP7k=" ],
+	"payment|protocol version 12|send to self" :
 	[
 		"qGQU6AOuEa0=",
 		"RMFj8J+1o14=",
@@ -1721,7 +1721,7 @@
 	"payment|protocol version 12|send to self|non existing asset with non existing issuer|without trustline" : [ "inLFyizjr1w=" ],
 	"payment|protocol version 12|simple credit|credit payment with no trust" : [ "e2l2fRwlI8I=" ],
 	"payment|protocol version 12|simple credit|credit sent to new account (no account error)" : [ "e2l2fRwlI8I=" ],
-	"payment|protocol version 12|simple credit|with trust" : 
+	"payment|protocol version 12|simple credit|with trust" :
 	[
 		"2k2kKI5Y8kI=",
 		"Rbf4F1DPur4=",
@@ -1732,7 +1732,7 @@
 		"0eG4nRofXCs=",
 		"qmUOQwEJ0w8="
 	],
-	"payment|protocol version 12|simple credit|with trust|missing issuer" : 
+	"payment|protocol version 12|simple credit|with trust|missing issuer" :
 	[
 		"mC4D9/sVfXo=",
 		"DVQfSXCqaKM=",
@@ -1743,7 +1743,7 @@
 	],
 	"payment|protocol version 12|simple credit|with trust|positive" : [ "4rxlhWSkAKI=", "OoCI2N0zqgo=" ],
 	"payment|protocol version 12|two payments, first breaking second" : [ "/0FvQZGicBI=" ],
-	"payment|protocol version 13" : 
+	"payment|protocol version 13" :
 	[
 		"I474xQR5RsE=",
 		"e7Zez2QGtOo=",
@@ -1919,7 +1919,7 @@
 	],
 	"payment|protocol version 13|a pays b, then a merge into b" : [ "x4SxPEw66wc=", "vU/ZTX5etSo=" ],
 	"payment|protocol version 13|a pays b, then b merge into a" : [ "x4SxPEw66wc=", "AU3gWWyzk/Q=" ],
-	"payment|protocol version 13|authorize flag|allow trust" : 
+	"payment|protocol version 13|authorize flag|allow trust" :
 	[
 		"Xc89Gq6UsJY=",
 		"Dsi9XnfdQCo=",
@@ -1944,7 +1944,7 @@
 	"payment|protocol version 13|fee less than base reserve|account has only base reserve + amount + two operation fees - one stroop" : [ "QR9Q79n8+XI=", "UoFk3SPHe0I=" ],
 	"payment|protocol version 13|fee less than base reserve|account has only base reserve + amount + two operation fees - two stroops" : [ "tzRA2Lzuv0U=", "iXJrzy6WJPE=" ],
 	"payment|protocol version 13|issuer large amounts" : [ "w3rgHjxWLnM=", "Q715ZhLo0pc=", "luRKe4TjlF8=" ],
-	"payment|protocol version 13|liabilities|cannot pay balance below selling liabilities" : 
+	"payment|protocol version 13|liabilities|cannot pay balance below selling liabilities" :
 	[
 		"Lt3z/g3YlAA=",
 		"WQWWB7Jbrf4=",
@@ -1960,9 +1960,9 @@
 	"payment|protocol version 13|pay, merge, create, pay, 3 accounts" : [ "hCcUSmkrzmg=", "12ojMDukd9Y=", "KSTzIep9kJ0=", "ZdjOBetjzeM=" ],
 	"payment|protocol version 13|pay, merge, create, pay, self" : [ "hCcUSmkrzmg=", "1xYgwTStEM0=", "o8eHJQKdaHg=" ],
 	"payment|protocol version 13|rescue account (was below reserve)" : [ "/J8iGd0Hlhc=", "Xh6gAscZdJs=", "hb0znJOdm+4=", "7x0+qIuSa/E=" ],
-	"payment|protocol version 13|send XLM to a new account (no destination)" : [ "ruPxFaUx7lE=" ],
-	"payment|protocol version 13|send XLM to an existing account" : [ "RQcfU0yHP7k=" ],
-	"payment|protocol version 13|send to self" : 
+	"payment|protocol version 13|send GRAM to a new account (no destination)" : [ "ruPxFaUx7lE=" ],
+	"payment|protocol version 13|send GRAM to an existing account" : [ "RQcfU0yHP7k=" ],
+	"payment|protocol version 13|send to self" :
 	[
 		"qGQU6AOuEa0=",
 		"RMFj8J+1o14=",
@@ -2091,7 +2091,7 @@
 	"payment|protocol version 13|send to self|non existing asset with non existing issuer|without trustline" : [ "inLFyizjr1w=" ],
 	"payment|protocol version 13|simple credit|credit payment with no trust" : [ "e2l2fRwlI8I=" ],
 	"payment|protocol version 13|simple credit|credit sent to new account (no account error)" : [ "e2l2fRwlI8I=" ],
-	"payment|protocol version 13|simple credit|with trust" : 
+	"payment|protocol version 13|simple credit|with trust" :
 	[
 		"2k2kKI5Y8kI=",
 		"Rbf4F1DPur4=",
@@ -2102,7 +2102,7 @@
 		"0eG4nRofXCs=",
 		"qmUOQwEJ0w8="
 	],
-	"payment|protocol version 13|simple credit|with trust|missing issuer" : 
+	"payment|protocol version 13|simple credit|with trust|missing issuer" :
 	[
 		"mC4D9/sVfXo=",
 		"7iL7HOATDpw=",
@@ -2113,7 +2113,7 @@
 	],
 	"payment|protocol version 13|simple credit|with trust|positive" : [ "4rxlhWSkAKI=", "OoCI2N0zqgo=" ],
 	"payment|protocol version 13|two payments, first breaking second" : [ "/0FvQZGicBI=" ],
-	"payment|protocol version 14" : 
+	"payment|protocol version 14" :
 	[
 		"I474xQR5RsE=",
 		"e7Zez2QGtOo=",
@@ -2289,7 +2289,7 @@
 	],
 	"payment|protocol version 14|a pays b, then a merge into b" : [ "x4SxPEw66wc=", "vU/ZTX5etSo=" ],
 	"payment|protocol version 14|a pays b, then b merge into a" : [ "x4SxPEw66wc=", "AU3gWWyzk/Q=" ],
-	"payment|protocol version 14|authorize flag|allow trust" : 
+	"payment|protocol version 14|authorize flag|allow trust" :
 	[
 		"Xc89Gq6UsJY=",
 		"Dsi9XnfdQCo=",
@@ -2314,7 +2314,7 @@
 	"payment|protocol version 14|fee less than base reserve|account has only base reserve + amount + two operation fees - one stroop" : [ "QR9Q79n8+XI=", "UoFk3SPHe0I=" ],
 	"payment|protocol version 14|fee less than base reserve|account has only base reserve + amount + two operation fees - two stroops" : [ "tzRA2Lzuv0U=", "iXJrzy6WJPE=" ],
 	"payment|protocol version 14|issuer large amounts" : [ "w3rgHjxWLnM=", "Q715ZhLo0pc=", "luRKe4TjlF8=" ],
-	"payment|protocol version 14|liabilities|cannot pay balance below selling liabilities" : 
+	"payment|protocol version 14|liabilities|cannot pay balance below selling liabilities" :
 	[
 		"Lt3z/g3YlAA=",
 		"WQWWB7Jbrf4=",
@@ -2330,9 +2330,9 @@
 	"payment|protocol version 14|pay, merge, create, pay, 3 accounts" : [ "hCcUSmkrzmg=", "12ojMDukd9Y=", "KSTzIep9kJ0=", "ZdjOBetjzeM=" ],
 	"payment|protocol version 14|pay, merge, create, pay, self" : [ "hCcUSmkrzmg=", "1xYgwTStEM0=", "o8eHJQKdaHg=" ],
 	"payment|protocol version 14|rescue account (was below reserve)" : [ "/J8iGd0Hlhc=", "Xh6gAscZdJs=", "hb0znJOdm+4=", "7x0+qIuSa/E=" ],
-	"payment|protocol version 14|send XLM to a new account (no destination)" : [ "ruPxFaUx7lE=" ],
-	"payment|protocol version 14|send XLM to an existing account" : [ "RQcfU0yHP7k=" ],
-	"payment|protocol version 14|send to self" : 
+	"payment|protocol version 14|send GRAM to a new account (no destination)" : [ "ruPxFaUx7lE=" ],
+	"payment|protocol version 14|send GRAM to an existing account" : [ "RQcfU0yHP7k=" ],
+	"payment|protocol version 14|send to self" :
 	[
 		"qGQU6AOuEa0=",
 		"RMFj8J+1o14=",
@@ -2461,7 +2461,7 @@
 	"payment|protocol version 14|send to self|non existing asset with non existing issuer|without trustline" : [ "inLFyizjr1w=" ],
 	"payment|protocol version 14|simple credit|credit payment with no trust" : [ "e2l2fRwlI8I=" ],
 	"payment|protocol version 14|simple credit|credit sent to new account (no account error)" : [ "e2l2fRwlI8I=" ],
-	"payment|protocol version 14|simple credit|with trust" : 
+	"payment|protocol version 14|simple credit|with trust" :
 	[
 		"2k2kKI5Y8kI=",
 		"Rbf4F1DPur4=",
@@ -2472,7 +2472,7 @@
 		"0eG4nRofXCs=",
 		"qmUOQwEJ0w8="
 	],
-	"payment|protocol version 14|simple credit|with trust|missing issuer" : 
+	"payment|protocol version 14|simple credit|with trust|missing issuer" :
 	[
 		"mC4D9/sVfXo=",
 		"7iL7HOATDpw=",
@@ -2483,7 +2483,7 @@
 	],
 	"payment|protocol version 14|simple credit|with trust|positive" : [ "4rxlhWSkAKI=", "OoCI2N0zqgo=" ],
 	"payment|protocol version 14|two payments, first breaking second" : [ "/0FvQZGicBI=" ],
-	"payment|protocol version 15" : 
+	"payment|protocol version 15" :
 	[
 		"I474xQR5RsE=",
 		"e7Zez2QGtOo=",
@@ -2659,7 +2659,7 @@
 	],
 	"payment|protocol version 15|a pays b, then a merge into b" : [ "x4SxPEw66wc=", "vU/ZTX5etSo=" ],
 	"payment|protocol version 15|a pays b, then b merge into a" : [ "x4SxPEw66wc=", "AU3gWWyzk/Q=" ],
-	"payment|protocol version 15|authorize flag|allow trust" : 
+	"payment|protocol version 15|authorize flag|allow trust" :
 	[
 		"Xc89Gq6UsJY=",
 		"Dsi9XnfdQCo=",
@@ -2684,7 +2684,7 @@
 	"payment|protocol version 15|fee less than base reserve|account has only base reserve + amount + two operation fees - one stroop" : [ "QR9Q79n8+XI=", "UoFk3SPHe0I=" ],
 	"payment|protocol version 15|fee less than base reserve|account has only base reserve + amount + two operation fees - two stroops" : [ "tzRA2Lzuv0U=", "iXJrzy6WJPE=" ],
 	"payment|protocol version 15|issuer large amounts" : [ "w3rgHjxWLnM=", "Q715ZhLo0pc=", "luRKe4TjlF8=" ],
-	"payment|protocol version 15|liabilities|cannot pay balance below selling liabilities" : 
+	"payment|protocol version 15|liabilities|cannot pay balance below selling liabilities" :
 	[
 		"Lt3z/g3YlAA=",
 		"WQWWB7Jbrf4=",
@@ -2700,9 +2700,9 @@
 	"payment|protocol version 15|pay, merge, create, pay, 3 accounts" : [ "hCcUSmkrzmg=", "12ojMDukd9Y=", "KSTzIep9kJ0=", "ZdjOBetjzeM=" ],
 	"payment|protocol version 15|pay, merge, create, pay, self" : [ "hCcUSmkrzmg=", "1xYgwTStEM0=", "o8eHJQKdaHg=" ],
 	"payment|protocol version 15|rescue account (was below reserve)" : [ "/J8iGd0Hlhc=", "Xh6gAscZdJs=", "hb0znJOdm+4=", "7x0+qIuSa/E=" ],
-	"payment|protocol version 15|send XLM to a new account (no destination)" : [ "ruPxFaUx7lE=" ],
-	"payment|protocol version 15|send XLM to an existing account" : [ "RQcfU0yHP7k=" ],
-	"payment|protocol version 15|send to self" : 
+	"payment|protocol version 15|send GRAM to a new account (no destination)" : [ "ruPxFaUx7lE=" ],
+	"payment|protocol version 15|send GRAM to an existing account" : [ "RQcfU0yHP7k=" ],
+	"payment|protocol version 15|send to self" :
 	[
 		"qGQU6AOuEa0=",
 		"RMFj8J+1o14=",
@@ -2831,7 +2831,7 @@
 	"payment|protocol version 15|send to self|non existing asset with non existing issuer|without trustline" : [ "inLFyizjr1w=" ],
 	"payment|protocol version 15|simple credit|credit payment with no trust" : [ "e2l2fRwlI8I=" ],
 	"payment|protocol version 15|simple credit|credit sent to new account (no account error)" : [ "e2l2fRwlI8I=" ],
-	"payment|protocol version 15|simple credit|with trust" : 
+	"payment|protocol version 15|simple credit|with trust" :
 	[
 		"2k2kKI5Y8kI=",
 		"Rbf4F1DPur4=",
@@ -2842,7 +2842,7 @@
 		"0eG4nRofXCs=",
 		"qmUOQwEJ0w8="
 	],
-	"payment|protocol version 15|simple credit|with trust|missing issuer" : 
+	"payment|protocol version 15|simple credit|with trust|missing issuer" :
 	[
 		"mC4D9/sVfXo=",
 		"7iL7HOATDpw=",
@@ -2853,7 +2853,7 @@
 	],
 	"payment|protocol version 15|simple credit|with trust|positive" : [ "4rxlhWSkAKI=", "OoCI2N0zqgo=" ],
 	"payment|protocol version 15|two payments, first breaking second" : [ "/0FvQZGicBI=" ],
-	"payment|protocol version 16" : 
+	"payment|protocol version 16" :
 	[
 		"I474xQR5RsE=",
 		"e7Zez2QGtOo=",
@@ -3029,7 +3029,7 @@
 	],
 	"payment|protocol version 16|a pays b, then a merge into b" : [ "x4SxPEw66wc=", "vU/ZTX5etSo=" ],
 	"payment|protocol version 16|a pays b, then b merge into a" : [ "x4SxPEw66wc=", "AU3gWWyzk/Q=" ],
-	"payment|protocol version 16|authorize flag|allow trust" : 
+	"payment|protocol version 16|authorize flag|allow trust" :
 	[
 		"Xc89Gq6UsJY=",
 		"Dsi9XnfdQCo=",
@@ -3054,7 +3054,7 @@
 	"payment|protocol version 16|fee less than base reserve|account has only base reserve + amount + two operation fees - one stroop" : [ "QR9Q79n8+XI=", "UoFk3SPHe0I=" ],
 	"payment|protocol version 16|fee less than base reserve|account has only base reserve + amount + two operation fees - two stroops" : [ "tzRA2Lzuv0U=", "iXJrzy6WJPE=" ],
 	"payment|protocol version 16|issuer large amounts" : [ "w3rgHjxWLnM=", "Q715ZhLo0pc=", "luRKe4TjlF8=" ],
-	"payment|protocol version 16|liabilities|cannot pay balance below selling liabilities" : 
+	"payment|protocol version 16|liabilities|cannot pay balance below selling liabilities" :
 	[
 		"Lt3z/g3YlAA=",
 		"WQWWB7Jbrf4=",
@@ -3070,9 +3070,9 @@
 	"payment|protocol version 16|pay, merge, create, pay, 3 accounts" : [ "hCcUSmkrzmg=", "12ojMDukd9Y=", "KSTzIep9kJ0=", "ZdjOBetjzeM=" ],
 	"payment|protocol version 16|pay, merge, create, pay, self" : [ "hCcUSmkrzmg=", "1xYgwTStEM0=", "o8eHJQKdaHg=" ],
 	"payment|protocol version 16|rescue account (was below reserve)" : [ "/J8iGd0Hlhc=", "Xh6gAscZdJs=", "hb0znJOdm+4=", "7x0+qIuSa/E=" ],
-	"payment|protocol version 16|send XLM to a new account (no destination)" : [ "ruPxFaUx7lE=" ],
-	"payment|protocol version 16|send XLM to an existing account" : [ "RQcfU0yHP7k=" ],
-	"payment|protocol version 16|send to self" : 
+	"payment|protocol version 16|send GRAM to a new account (no destination)" : [ "ruPxFaUx7lE=" ],
+	"payment|protocol version 16|send GRAM to an existing account" : [ "RQcfU0yHP7k=" ],
+	"payment|protocol version 16|send to self" :
 	[
 		"qGQU6AOuEa0=",
 		"RMFj8J+1o14=",
@@ -3201,7 +3201,7 @@
 	"payment|protocol version 16|send to self|non existing asset with non existing issuer|without trustline" : [ "inLFyizjr1w=" ],
 	"payment|protocol version 16|simple credit|credit payment with no trust" : [ "e2l2fRwlI8I=" ],
 	"payment|protocol version 16|simple credit|credit sent to new account (no account error)" : [ "e2l2fRwlI8I=" ],
-	"payment|protocol version 16|simple credit|with trust" : 
+	"payment|protocol version 16|simple credit|with trust" :
 	[
 		"2k2kKI5Y8kI=",
 		"Rbf4F1DPur4=",
@@ -3212,7 +3212,7 @@
 		"0eG4nRofXCs=",
 		"qmUOQwEJ0w8="
 	],
-	"payment|protocol version 16|simple credit|with trust|missing issuer" : 
+	"payment|protocol version 16|simple credit|with trust|missing issuer" :
 	[
 		"mC4D9/sVfXo=",
 		"7iL7HOATDpw=",
@@ -3223,7 +3223,7 @@
 	],
 	"payment|protocol version 16|simple credit|with trust|positive" : [ "4rxlhWSkAKI=", "OoCI2N0zqgo=" ],
 	"payment|protocol version 16|two payments, first breaking second" : [ "/0FvQZGicBI=" ],
-	"payment|protocol version 17" : 
+	"payment|protocol version 17" :
 	[
 		"I474xQR5RsE=",
 		"e7Zez2QGtOo=",
@@ -3399,7 +3399,7 @@
 	],
 	"payment|protocol version 17|a pays b, then a merge into b" : [ "x4SxPEw66wc=", "vU/ZTX5etSo=" ],
 	"payment|protocol version 17|a pays b, then b merge into a" : [ "x4SxPEw66wc=", "AU3gWWyzk/Q=" ],
-	"payment|protocol version 17|authorize flag|allow trust" : 
+	"payment|protocol version 17|authorize flag|allow trust" :
 	[
 		"Xc89Gq6UsJY=",
 		"Dsi9XnfdQCo=",
@@ -3411,7 +3411,7 @@
 		"4eAHx3iC+W4=",
 		"eXvfJyrJmHI="
 	],
-	"payment|protocol version 17|authorize flag|set trustline flags" : 
+	"payment|protocol version 17|authorize flag|set trustline flags" :
 	[
 		"Xc89Gq6UsJY=",
 		"Dsi9XnfdQCo=",
@@ -3436,7 +3436,7 @@
 	"payment|protocol version 17|fee less than base reserve|account has only base reserve + amount + two operation fees - one stroop" : [ "QR9Q79n8+XI=", "UoFk3SPHe0I=" ],
 	"payment|protocol version 17|fee less than base reserve|account has only base reserve + amount + two operation fees - two stroops" : [ "tzRA2Lzuv0U=", "iXJrzy6WJPE=" ],
 	"payment|protocol version 17|issuer large amounts" : [ "w3rgHjxWLnM=", "Q715ZhLo0pc=", "luRKe4TjlF8=" ],
-	"payment|protocol version 17|liabilities|cannot pay balance below selling liabilities" : 
+	"payment|protocol version 17|liabilities|cannot pay balance below selling liabilities" :
 	[
 		"Lt3z/g3YlAA=",
 		"WQWWB7Jbrf4=",
@@ -3452,9 +3452,9 @@
 	"payment|protocol version 17|pay, merge, create, pay, 3 accounts" : [ "hCcUSmkrzmg=", "12ojMDukd9Y=", "KSTzIep9kJ0=", "ZdjOBetjzeM=" ],
 	"payment|protocol version 17|pay, merge, create, pay, self" : [ "hCcUSmkrzmg=", "1xYgwTStEM0=", "o8eHJQKdaHg=" ],
 	"payment|protocol version 17|rescue account (was below reserve)" : [ "/J8iGd0Hlhc=", "Xh6gAscZdJs=", "hb0znJOdm+4=", "7x0+qIuSa/E=" ],
-	"payment|protocol version 17|send XLM to a new account (no destination)" : [ "ruPxFaUx7lE=" ],
-	"payment|protocol version 17|send XLM to an existing account" : [ "RQcfU0yHP7k=" ],
-	"payment|protocol version 17|send to self" : 
+	"payment|protocol version 17|send GRAM to a new account (no destination)" : [ "ruPxFaUx7lE=" ],
+	"payment|protocol version 17|send GRAM to an existing account" : [ "RQcfU0yHP7k=" ],
+	"payment|protocol version 17|send to self" :
 	[
 		"qGQU6AOuEa0=",
 		"RMFj8J+1o14=",
@@ -3583,7 +3583,7 @@
 	"payment|protocol version 17|send to self|non existing asset with non existing issuer|without trustline" : [ "inLFyizjr1w=" ],
 	"payment|protocol version 17|simple credit|credit payment with no trust" : [ "e2l2fRwlI8I=" ],
 	"payment|protocol version 17|simple credit|credit sent to new account (no account error)" : [ "e2l2fRwlI8I=" ],
-	"payment|protocol version 17|simple credit|with trust" : 
+	"payment|protocol version 17|simple credit|with trust" :
 	[
 		"2k2kKI5Y8kI=",
 		"Rbf4F1DPur4=",
@@ -3594,7 +3594,7 @@
 		"0eG4nRofXCs=",
 		"qmUOQwEJ0w8="
 	],
-	"payment|protocol version 17|simple credit|with trust|missing issuer" : 
+	"payment|protocol version 17|simple credit|with trust|missing issuer" :
 	[
 		"mC4D9/sVfXo=",
 		"7iL7HOATDpw=",
@@ -3605,7 +3605,7 @@
 	],
 	"payment|protocol version 17|simple credit|with trust|positive" : [ "4rxlhWSkAKI=", "OoCI2N0zqgo=" ],
 	"payment|protocol version 17|two payments, first breaking second" : [ "/0FvQZGicBI=" ],
-	"payment|protocol version 18" : 
+	"payment|protocol version 18" :
 	[
 		"I474xQR5RsE=",
 		"e7Zez2QGtOo=",
@@ -3781,7 +3781,7 @@
 	],
 	"payment|protocol version 18|a pays b, then a merge into b" : [ "x4SxPEw66wc=", "vU/ZTX5etSo=" ],
 	"payment|protocol version 18|a pays b, then b merge into a" : [ "x4SxPEw66wc=", "AU3gWWyzk/Q=" ],
-	"payment|protocol version 18|authorize flag|allow trust" : 
+	"payment|protocol version 18|authorize flag|allow trust" :
 	[
 		"Xc89Gq6UsJY=",
 		"Dsi9XnfdQCo=",
@@ -3793,7 +3793,7 @@
 		"4eAHx3iC+W4=",
 		"eXvfJyrJmHI="
 	],
-	"payment|protocol version 18|authorize flag|set trustline flags" : 
+	"payment|protocol version 18|authorize flag|set trustline flags" :
 	[
 		"Xc89Gq6UsJY=",
 		"Dsi9XnfdQCo=",
@@ -3818,7 +3818,7 @@
 	"payment|protocol version 18|fee less than base reserve|account has only base reserve + amount + two operation fees - one stroop" : [ "QR9Q79n8+XI=", "UoFk3SPHe0I=" ],
 	"payment|protocol version 18|fee less than base reserve|account has only base reserve + amount + two operation fees - two stroops" : [ "tzRA2Lzuv0U=", "iXJrzy6WJPE=" ],
 	"payment|protocol version 18|issuer large amounts" : [ "w3rgHjxWLnM=", "Q715ZhLo0pc=", "luRKe4TjlF8=" ],
-	"payment|protocol version 18|liabilities|cannot pay balance below selling liabilities" : 
+	"payment|protocol version 18|liabilities|cannot pay balance below selling liabilities" :
 	[
 		"Lt3z/g3YlAA=",
 		"WQWWB7Jbrf4=",
@@ -3834,9 +3834,9 @@
 	"payment|protocol version 18|pay, merge, create, pay, 3 accounts" : [ "hCcUSmkrzmg=", "12ojMDukd9Y=", "KSTzIep9kJ0=", "ZdjOBetjzeM=" ],
 	"payment|protocol version 18|pay, merge, create, pay, self" : [ "hCcUSmkrzmg=", "1xYgwTStEM0=", "o8eHJQKdaHg=" ],
 	"payment|protocol version 18|rescue account (was below reserve)" : [ "/J8iGd0Hlhc=", "Xh6gAscZdJs=", "hb0znJOdm+4=", "7x0+qIuSa/E=" ],
-	"payment|protocol version 18|send XLM to a new account (no destination)" : [ "ruPxFaUx7lE=" ],
-	"payment|protocol version 18|send XLM to an existing account" : [ "RQcfU0yHP7k=" ],
-	"payment|protocol version 18|send to self" : 
+	"payment|protocol version 18|send GRAM to a new account (no destination)" : [ "ruPxFaUx7lE=" ],
+	"payment|protocol version 18|send GRAM to an existing account" : [ "RQcfU0yHP7k=" ],
+	"payment|protocol version 18|send to self" :
 	[
 		"qGQU6AOuEa0=",
 		"RMFj8J+1o14=",
@@ -3965,7 +3965,7 @@
 	"payment|protocol version 18|send to self|non existing asset with non existing issuer|without trustline" : [ "inLFyizjr1w=" ],
 	"payment|protocol version 18|simple credit|credit payment with no trust" : [ "e2l2fRwlI8I=" ],
 	"payment|protocol version 18|simple credit|credit sent to new account (no account error)" : [ "e2l2fRwlI8I=" ],
-	"payment|protocol version 18|simple credit|with trust" : 
+	"payment|protocol version 18|simple credit|with trust" :
 	[
 		"2k2kKI5Y8kI=",
 		"Rbf4F1DPur4=",
@@ -3976,7 +3976,7 @@
 		"0eG4nRofXCs=",
 		"qmUOQwEJ0w8="
 	],
-	"payment|protocol version 18|simple credit|with trust|missing issuer" : 
+	"payment|protocol version 18|simple credit|with trust|missing issuer" :
 	[
 		"mC4D9/sVfXo=",
 		"7iL7HOATDpw=",
@@ -3987,7 +3987,7 @@
 	],
 	"payment|protocol version 18|simple credit|with trust|positive" : [ "4rxlhWSkAKI=", "OoCI2N0zqgo=" ],
 	"payment|protocol version 18|two payments, first breaking second" : [ "/0FvQZGicBI=" ],
-	"payment|protocol version 19" : 
+	"payment|protocol version 19" :
 	[
 		"3s8wcHiLvNA=",
 		"ggyWfr7j/vE=",
@@ -4163,7 +4163,7 @@
 	],
 	"payment|protocol version 19|a pays b, then a merge into b" : [ "SVlgdNpoXus=", "n8NUYC/AhfE=" ],
 	"payment|protocol version 19|a pays b, then b merge into a" : [ "SVlgdNpoXus=", "HRUA5N5J8Ew=" ],
-	"payment|protocol version 19|authorize flag|allow trust" : 
+	"payment|protocol version 19|authorize flag|allow trust" :
 	[
 		"ExNY9+rru4c=",
 		"O79pOM9AgDs=",
@@ -4175,7 +4175,7 @@
 		"LpoK8qzbbLY=",
 		"7YQk8wE9h4U="
 	],
-	"payment|protocol version 19|authorize flag|set trustline flags" : 
+	"payment|protocol version 19|authorize flag|set trustline flags" :
 	[
 		"ExNY9+rru4c=",
 		"O79pOM9AgDs=",
@@ -4200,7 +4200,7 @@
 	"payment|protocol version 19|fee less than base reserve|account has only base reserve + amount + two operation fees - one stroop" : [ "0EEwOaRE690=", "NBS1/tyMFXs=" ],
 	"payment|protocol version 19|fee less than base reserve|account has only base reserve + amount + two operation fees - two stroops" : [ "05FaBrZevQo=", "j8z7WfHt3jE=" ],
 	"payment|protocol version 19|issuer large amounts" : [ "gk2CV59s8b8=", "ZYXZJ3sgwH4=", "vq4OHU6aI64=" ],
-	"payment|protocol version 19|liabilities|cannot pay balance below selling liabilities" : 
+	"payment|protocol version 19|liabilities|cannot pay balance below selling liabilities" :
 	[
 		"LfHdgrzUoJk=",
 		"efQiMcPFK1k=",
@@ -4216,9 +4216,9 @@
 	"payment|protocol version 19|pay, merge, create, pay, 3 accounts" : [ "5H0jpJ3I5ZE=", "y7eIfKMw2Ak=", "QA7h4Bfjx2U=", "HRN9VqshohI=" ],
 	"payment|protocol version 19|pay, merge, create, pay, self" : [ "5H0jpJ3I5ZE=", "Kj5WfM/aEBA=", "srXYyit1oYc=" ],
 	"payment|protocol version 19|rescue account (was below reserve)" : [ "gImuwEDx7sA=", "OdjQVS6HZms=", "mKbsBghSyZ4=", "1oL8wYu8CDk=" ],
-	"payment|protocol version 19|send XLM to a new account (no destination)" : [ "q02uKuKv3WY=" ],
-	"payment|protocol version 19|send XLM to an existing account" : [ "WRR3hwhty2s=" ],
-	"payment|protocol version 19|send to self" : 
+	"payment|protocol version 19|send GRAM to a new account (no destination)" : [ "q02uKuKv3WY=" ],
+	"payment|protocol version 19|send GRAM to an existing account" : [ "WRR3hwhty2s=" ],
+	"payment|protocol version 19|send to self" :
 	[
 		"hVEyWYWULx0=",
 		"CC7YK38VtzQ=",
@@ -4347,7 +4347,7 @@
 	"payment|protocol version 19|send to self|non existing asset with non existing issuer|without trustline" : [ "aRTEDkchG+Q=" ],
 	"payment|protocol version 19|simple credit|credit payment with no trust" : [ "SZBEhC/Tvv4=" ],
 	"payment|protocol version 19|simple credit|credit sent to new account (no account error)" : [ "SZBEhC/Tvv4=" ],
-	"payment|protocol version 19|simple credit|with trust" : 
+	"payment|protocol version 19|simple credit|with trust" :
 	[
 		"ZGI4iWFQ9rU=",
 		"oXwPlcLvlPk=",
@@ -4358,7 +4358,7 @@
 		"VkqlFzxrqSc=",
 		"YjJo44qRnTw="
 	],
-	"payment|protocol version 19|simple credit|with trust|missing issuer" : 
+	"payment|protocol version 19|simple credit|with trust|missing issuer" :
 	[
 		"xUeI13FNW7Q=",
 		"EZcXPlGmkDU=",
@@ -4371,7 +4371,7 @@
 	"payment|protocol version 19|two payments, first breaking second" : [ "4+6eFQ1y63k=" ],
 	"payment|protocol version 1|a pays b, then a merge into b" : [ "tC1VsNNRT18=", "6Cm6IY7Goqo=" ],
 	"payment|protocol version 1|a pays b, then b merge into a" : [ "tC1VsNNRT18=", "L64XLnXWjLE=" ],
-	"payment|protocol version 1|authorize flag|allow trust" : 
+	"payment|protocol version 1|authorize flag|allow trust" :
 	[
 		"fnuy736N9Sw=",
 		"I9qKntmJl7c=",
@@ -4405,9 +4405,9 @@
 	"payment|protocol version 1|pay, merge, create, pay, 3 accounts" : [ "HRGCodA7j/g=", "QQI/BCkhfPw=", "yPVJj9156JA=", "OBPu5uw3TlE=" ],
 	"payment|protocol version 1|pay, merge, create, pay, self" : [ "HRGCodA7j/g=", "RAypWQQnHp8=", "yfRQ7B1TfwE=" ],
 	"payment|protocol version 1|rescue account (was below reserve)" : [ "pyPqTd+ByY0=", "/lfj8xIFS8I=", "oplHUhuvbjQ=", "Z9p0KB8UdxI=" ],
-	"payment|protocol version 1|send XLM to a new account (no destination)" : [ "/lfj8xIFS8I=" ],
-	"payment|protocol version 1|send XLM to an existing account" : [ "Lx9ckWKr0S4=" ],
-	"payment|protocol version 1|send to self" : 
+	"payment|protocol version 1|send GRAM to a new account (no destination)" : [ "/lfj8xIFS8I=" ],
+	"payment|protocol version 1|send GRAM to an existing account" : [ "Lx9ckWKr0S4=" ],
+	"payment|protocol version 1|send to self" :
 	[
 		"8vz51UGSTgI=",
 		"WBQMMaGhHDw=",
@@ -4536,7 +4536,7 @@
 	"payment|protocol version 1|send to self|non existing asset with non existing issuer|without trustline" : [ "PoaWeZKiPuQ=" ],
 	"payment|protocol version 1|simple credit|credit payment with no trust" : [ "/lfj8xIFS8I=" ],
 	"payment|protocol version 1|simple credit|credit sent to new account (no account error)" : [ "/lfj8xIFS8I=" ],
-	"payment|protocol version 1|simple credit|with trust" : 
+	"payment|protocol version 1|simple credit|with trust" :
 	[
 		"rn0Xn7J6AGQ=",
 		"/dSr+CMGqew=",
@@ -4547,7 +4547,7 @@
 		"4Nbm1erruzc=",
 		"vCmlwgzENn4="
 	],
-	"payment|protocol version 1|simple credit|with trust|missing issuer" : 
+	"payment|protocol version 1|simple credit|with trust|missing issuer" :
 	[
 		"riTjZxwG9go=",
 		"/lfj8xIFS8I=",
@@ -4558,7 +4558,7 @@
 	],
 	"payment|protocol version 1|simple credit|with trust|positive" : [ "p11w2Nkvdy4=", "gAN2F1zKkyI=" ],
 	"payment|protocol version 1|two payments, first breaking second" : [ "ns4DM4E40Nw=" ],
-	"payment|protocol version 2" : 
+	"payment|protocol version 2" :
 	[
 		"c8f9ZedQpBg=",
 		"QSSZ34e/T04=",
@@ -4734,7 +4734,7 @@
 	],
 	"payment|protocol version 2|a pays b, then a merge into b" : [ "tC1VsNNRT18=", "6Cm6IY7Goqo=" ],
 	"payment|protocol version 2|a pays b, then b merge into a" : [ "tC1VsNNRT18=", "L64XLnXWjLE=" ],
-	"payment|protocol version 2|authorize flag|allow trust" : 
+	"payment|protocol version 2|authorize flag|allow trust" :
 	[
 		"fnuy736N9Sw=",
 		"I9qKntmJl7c=",
@@ -4768,9 +4768,9 @@
 	"payment|protocol version 2|pay, merge, create, pay, 3 accounts" : [ "HRGCodA7j/g=", "QQI/BCkhfPw=", "yPVJj9156JA=", "OBPu5uw3TlE=" ],
 	"payment|protocol version 2|pay, merge, create, pay, self" : [ "HRGCodA7j/g=", "RAypWQQnHp8=", "yfRQ7B1TfwE=" ],
 	"payment|protocol version 2|rescue account (was below reserve)" : [ "pyPqTd+ByY0=", "/lfj8xIFS8I=", "oplHUhuvbjQ=", "Z9p0KB8UdxI=" ],
-	"payment|protocol version 2|send XLM to a new account (no destination)" : [ "/lfj8xIFS8I=" ],
-	"payment|protocol version 2|send XLM to an existing account" : [ "Lx9ckWKr0S4=" ],
-	"payment|protocol version 2|send to self" : 
+	"payment|protocol version 2|send GRAM to a new account (no destination)" : [ "/lfj8xIFS8I=" ],
+	"payment|protocol version 2|send GRAM to an existing account" : [ "Lx9ckWKr0S4=" ],
+	"payment|protocol version 2|send to self" :
 	[
 		"8vz51UGSTgI=",
 		"WBQMMaGhHDw=",
@@ -4899,7 +4899,7 @@
 	"payment|protocol version 2|send to self|non existing asset with non existing issuer|without trustline" : [ "PoaWeZKiPuQ=" ],
 	"payment|protocol version 2|simple credit|credit payment with no trust" : [ "/lfj8xIFS8I=" ],
 	"payment|protocol version 2|simple credit|credit sent to new account (no account error)" : [ "/lfj8xIFS8I=" ],
-	"payment|protocol version 2|simple credit|with trust" : 
+	"payment|protocol version 2|simple credit|with trust" :
 	[
 		"rn0Xn7J6AGQ=",
 		"/dSr+CMGqew=",
@@ -4910,7 +4910,7 @@
 		"4Nbm1erruzc=",
 		"vCmlwgzENn4="
 	],
-	"payment|protocol version 2|simple credit|with trust|missing issuer" : 
+	"payment|protocol version 2|simple credit|with trust|missing issuer" :
 	[
 		"riTjZxwG9go=",
 		"/lfj8xIFS8I=",
@@ -4921,7 +4921,7 @@
 	],
 	"payment|protocol version 2|simple credit|with trust|positive" : [ "p11w2Nkvdy4=", "gAN2F1zKkyI=" ],
 	"payment|protocol version 2|two payments, first breaking second" : [ "ns4DM4E40Nw=" ],
-	"payment|protocol version 3" : 
+	"payment|protocol version 3" :
 	[
 		"c8f9ZedQpBg=",
 		"QSSZ34e/T04=",
@@ -5097,7 +5097,7 @@
 	],
 	"payment|protocol version 3|a pays b, then a merge into b" : [ "tC1VsNNRT18=", "6Cm6IY7Goqo=" ],
 	"payment|protocol version 3|a pays b, then b merge into a" : [ "tC1VsNNRT18=", "L64XLnXWjLE=" ],
-	"payment|protocol version 3|authorize flag|allow trust" : 
+	"payment|protocol version 3|authorize flag|allow trust" :
 	[
 		"fnuy736N9Sw=",
 		"I9qKntmJl7c=",
@@ -5131,9 +5131,9 @@
 	"payment|protocol version 3|pay, merge, create, pay, 3 accounts" : [ "HRGCodA7j/g=", "QQI/BCkhfPw=", "yPVJj9156JA=", "OBPu5uw3TlE=" ],
 	"payment|protocol version 3|pay, merge, create, pay, self" : [ "HRGCodA7j/g=", "RAypWQQnHp8=", "yfRQ7B1TfwE=" ],
 	"payment|protocol version 3|rescue account (was below reserve)" : [ "pyPqTd+ByY0=", "/lfj8xIFS8I=", "oplHUhuvbjQ=", "Z9p0KB8UdxI=" ],
-	"payment|protocol version 3|send XLM to a new account (no destination)" : [ "/lfj8xIFS8I=" ],
-	"payment|protocol version 3|send XLM to an existing account" : [ "Lx9ckWKr0S4=" ],
-	"payment|protocol version 3|send to self" : 
+	"payment|protocol version 3|send GRAM to a new account (no destination)" : [ "/lfj8xIFS8I=" ],
+	"payment|protocol version 3|send GRAM to an existing account" : [ "Lx9ckWKr0S4=" ],
+	"payment|protocol version 3|send to self" :
 	[
 		"8vz51UGSTgI=",
 		"WBQMMaGhHDw=",
@@ -5262,7 +5262,7 @@
 	"payment|protocol version 3|send to self|non existing asset with non existing issuer|without trustline" : [ "/lfj8xIFS8I=" ],
 	"payment|protocol version 3|simple credit|credit payment with no trust" : [ "/lfj8xIFS8I=" ],
 	"payment|protocol version 3|simple credit|credit sent to new account (no account error)" : [ "/lfj8xIFS8I=" ],
-	"payment|protocol version 3|simple credit|with trust" : 
+	"payment|protocol version 3|simple credit|with trust" :
 	[
 		"rn0Xn7J6AGQ=",
 		"/dSr+CMGqew=",
@@ -5273,7 +5273,7 @@
 		"4Nbm1erruzc=",
 		"vCmlwgzENn4="
 	],
-	"payment|protocol version 3|simple credit|with trust|missing issuer" : 
+	"payment|protocol version 3|simple credit|with trust|missing issuer" :
 	[
 		"riTjZxwG9go=",
 		"/lfj8xIFS8I=",
@@ -5284,7 +5284,7 @@
 	],
 	"payment|protocol version 3|simple credit|with trust|positive" : [ "p11w2Nkvdy4=", "gAN2F1zKkyI=" ],
 	"payment|protocol version 3|two payments, first breaking second" : [ "ns4DM4E40Nw=" ],
-	"payment|protocol version 4" : 
+	"payment|protocol version 4" :
 	[
 		"c8f9ZedQpBg=",
 		"QSSZ34e/T04=",
@@ -5460,7 +5460,7 @@
 	],
 	"payment|protocol version 4|a pays b, then a merge into b" : [ "tC1VsNNRT18=", "6Cm6IY7Goqo=" ],
 	"payment|protocol version 4|a pays b, then b merge into a" : [ "tC1VsNNRT18=", "L64XLnXWjLE=" ],
-	"payment|protocol version 4|authorize flag|allow trust" : 
+	"payment|protocol version 4|authorize flag|allow trust" :
 	[
 		"fnuy736N9Sw=",
 		"I9qKntmJl7c=",
@@ -5494,9 +5494,9 @@
 	"payment|protocol version 4|pay, merge, create, pay, 3 accounts" : [ "HRGCodA7j/g=", "QQI/BCkhfPw=", "yPVJj9156JA=", "OBPu5uw3TlE=" ],
 	"payment|protocol version 4|pay, merge, create, pay, self" : [ "HRGCodA7j/g=", "RAypWQQnHp8=", "yfRQ7B1TfwE=" ],
 	"payment|protocol version 4|rescue account (was below reserve)" : [ "pyPqTd+ByY0=", "/lfj8xIFS8I=", "oplHUhuvbjQ=", "Z9p0KB8UdxI=" ],
-	"payment|protocol version 4|send XLM to a new account (no destination)" : [ "/lfj8xIFS8I=" ],
-	"payment|protocol version 4|send XLM to an existing account" : [ "Lx9ckWKr0S4=" ],
-	"payment|protocol version 4|send to self" : 
+	"payment|protocol version 4|send GRAM to a new account (no destination)" : [ "/lfj8xIFS8I=" ],
+	"payment|protocol version 4|send GRAM to an existing account" : [ "Lx9ckWKr0S4=" ],
+	"payment|protocol version 4|send to self" :
 	[
 		"8vz51UGSTgI=",
 		"WBQMMaGhHDw=",
@@ -5625,7 +5625,7 @@
 	"payment|protocol version 4|send to self|non existing asset with non existing issuer|without trustline" : [ "/lfj8xIFS8I=" ],
 	"payment|protocol version 4|simple credit|credit payment with no trust" : [ "/lfj8xIFS8I=" ],
 	"payment|protocol version 4|simple credit|credit sent to new account (no account error)" : [ "/lfj8xIFS8I=" ],
-	"payment|protocol version 4|simple credit|with trust" : 
+	"payment|protocol version 4|simple credit|with trust" :
 	[
 		"rn0Xn7J6AGQ=",
 		"/dSr+CMGqew=",
@@ -5636,7 +5636,7 @@
 		"4Nbm1erruzc=",
 		"vCmlwgzENn4="
 	],
-	"payment|protocol version 4|simple credit|with trust|missing issuer" : 
+	"payment|protocol version 4|simple credit|with trust|missing issuer" :
 	[
 		"riTjZxwG9go=",
 		"/lfj8xIFS8I=",
@@ -5647,7 +5647,7 @@
 	],
 	"payment|protocol version 4|simple credit|with trust|positive" : [ "p11w2Nkvdy4=", "gAN2F1zKkyI=" ],
 	"payment|protocol version 4|two payments, first breaking second" : [ "ns4DM4E40Nw=" ],
-	"payment|protocol version 5" : 
+	"payment|protocol version 5" :
 	[
 		"c8f9ZedQpBg=",
 		"QSSZ34e/T04=",
@@ -5823,7 +5823,7 @@
 	],
 	"payment|protocol version 5|a pays b, then a merge into b" : [ "tC1VsNNRT18=", "6Cm6IY7Goqo=" ],
 	"payment|protocol version 5|a pays b, then b merge into a" : [ "tC1VsNNRT18=", "L64XLnXWjLE=" ],
-	"payment|protocol version 5|authorize flag|allow trust" : 
+	"payment|protocol version 5|authorize flag|allow trust" :
 	[
 		"fnuy736N9Sw=",
 		"I9qKntmJl7c=",
@@ -5857,9 +5857,9 @@
 	"payment|protocol version 5|pay, merge, create, pay, 3 accounts" : [ "HRGCodA7j/g=", "QQI/BCkhfPw=", "yPVJj9156JA=", "OBPu5uw3TlE=" ],
 	"payment|protocol version 5|pay, merge, create, pay, self" : [ "HRGCodA7j/g=", "RAypWQQnHp8=", "yfRQ7B1TfwE=" ],
 	"payment|protocol version 5|rescue account (was below reserve)" : [ "pyPqTd+ByY0=", "/lfj8xIFS8I=", "oplHUhuvbjQ=", "Z9p0KB8UdxI=" ],
-	"payment|protocol version 5|send XLM to a new account (no destination)" : [ "/lfj8xIFS8I=" ],
-	"payment|protocol version 5|send XLM to an existing account" : [ "Lx9ckWKr0S4=" ],
-	"payment|protocol version 5|send to self" : 
+	"payment|protocol version 5|send GRAM to a new account (no destination)" : [ "/lfj8xIFS8I=" ],
+	"payment|protocol version 5|send GRAM to an existing account" : [ "Lx9ckWKr0S4=" ],
+	"payment|protocol version 5|send to self" :
 	[
 		"8vz51UGSTgI=",
 		"WBQMMaGhHDw=",
@@ -5988,7 +5988,7 @@
 	"payment|protocol version 5|send to self|non existing asset with non existing issuer|without trustline" : [ "/lfj8xIFS8I=" ],
 	"payment|protocol version 5|simple credit|credit payment with no trust" : [ "/lfj8xIFS8I=" ],
 	"payment|protocol version 5|simple credit|credit sent to new account (no account error)" : [ "/lfj8xIFS8I=" ],
-	"payment|protocol version 5|simple credit|with trust" : 
+	"payment|protocol version 5|simple credit|with trust" :
 	[
 		"rn0Xn7J6AGQ=",
 		"/dSr+CMGqew=",
@@ -5999,7 +5999,7 @@
 		"4Nbm1erruzc=",
 		"vCmlwgzENn4="
 	],
-	"payment|protocol version 5|simple credit|with trust|missing issuer" : 
+	"payment|protocol version 5|simple credit|with trust|missing issuer" :
 	[
 		"riTjZxwG9go=",
 		"/lfj8xIFS8I=",
@@ -6010,7 +6010,7 @@
 	],
 	"payment|protocol version 5|simple credit|with trust|positive" : [ "p11w2Nkvdy4=", "gAN2F1zKkyI=" ],
 	"payment|protocol version 5|two payments, first breaking second" : [ "ns4DM4E40Nw=" ],
-	"payment|protocol version 6" : 
+	"payment|protocol version 6" :
 	[
 		"c8f9ZedQpBg=",
 		"QSSZ34e/T04=",
@@ -6186,7 +6186,7 @@
 	],
 	"payment|protocol version 6|a pays b, then a merge into b" : [ "tC1VsNNRT18=", "6Cm6IY7Goqo=" ],
 	"payment|protocol version 6|a pays b, then b merge into a" : [ "tC1VsNNRT18=", "L64XLnXWjLE=" ],
-	"payment|protocol version 6|authorize flag|allow trust" : 
+	"payment|protocol version 6|authorize flag|allow trust" :
 	[
 		"fnuy736N9Sw=",
 		"I9qKntmJl7c=",
@@ -6220,9 +6220,9 @@
 	"payment|protocol version 6|pay, merge, create, pay, 3 accounts" : [ "HRGCodA7j/g=", "QQI/BCkhfPw=", "yPVJj9156JA=", "OBPu5uw3TlE=" ],
 	"payment|protocol version 6|pay, merge, create, pay, self" : [ "HRGCodA7j/g=", "RAypWQQnHp8=", "yfRQ7B1TfwE=" ],
 	"payment|protocol version 6|rescue account (was below reserve)" : [ "pyPqTd+ByY0=", "/lfj8xIFS8I=", "oplHUhuvbjQ=", "Z9p0KB8UdxI=" ],
-	"payment|protocol version 6|send XLM to a new account (no destination)" : [ "/lfj8xIFS8I=" ],
-	"payment|protocol version 6|send XLM to an existing account" : [ "Lx9ckWKr0S4=" ],
-	"payment|protocol version 6|send to self" : 
+	"payment|protocol version 6|send GRAM to a new account (no destination)" : [ "/lfj8xIFS8I=" ],
+	"payment|protocol version 6|send GRAM to an existing account" : [ "Lx9ckWKr0S4=" ],
+	"payment|protocol version 6|send to self" :
 	[
 		"8vz51UGSTgI=",
 		"WBQMMaGhHDw=",
@@ -6351,7 +6351,7 @@
 	"payment|protocol version 6|send to self|non existing asset with non existing issuer|without trustline" : [ "/lfj8xIFS8I=" ],
 	"payment|protocol version 6|simple credit|credit payment with no trust" : [ "/lfj8xIFS8I=" ],
 	"payment|protocol version 6|simple credit|credit sent to new account (no account error)" : [ "/lfj8xIFS8I=" ],
-	"payment|protocol version 6|simple credit|with trust" : 
+	"payment|protocol version 6|simple credit|with trust" :
 	[
 		"rn0Xn7J6AGQ=",
 		"/dSr+CMGqew=",
@@ -6362,7 +6362,7 @@
 		"4Nbm1erruzc=",
 		"vCmlwgzENn4="
 	],
-	"payment|protocol version 6|simple credit|with trust|missing issuer" : 
+	"payment|protocol version 6|simple credit|with trust|missing issuer" :
 	[
 		"riTjZxwG9go=",
 		"/lfj8xIFS8I=",
@@ -6373,7 +6373,7 @@
 	],
 	"payment|protocol version 6|simple credit|with trust|positive" : [ "p11w2Nkvdy4=", "gAN2F1zKkyI=" ],
 	"payment|protocol version 6|two payments, first breaking second" : [ "ns4DM4E40Nw=" ],
-	"payment|protocol version 7" : 
+	"payment|protocol version 7" :
 	[
 		"c8f9ZedQpBg=",
 		"QSSZ34e/T04=",
@@ -6549,7 +6549,7 @@
 	],
 	"payment|protocol version 7|a pays b, then a merge into b" : [ "tC1VsNNRT18=", "6Cm6IY7Goqo=" ],
 	"payment|protocol version 7|a pays b, then b merge into a" : [ "tC1VsNNRT18=", "L64XLnXWjLE=" ],
-	"payment|protocol version 7|authorize flag|allow trust" : 
+	"payment|protocol version 7|authorize flag|allow trust" :
 	[
 		"fnuy736N9Sw=",
 		"I9qKntmJl7c=",
@@ -6583,9 +6583,9 @@
 	"payment|protocol version 7|pay, merge, create, pay, 3 accounts" : [ "HRGCodA7j/g=", "QQI/BCkhfPw=", "yPVJj9156JA=", "OBPu5uw3TlE=" ],
 	"payment|protocol version 7|pay, merge, create, pay, self" : [ "HRGCodA7j/g=", "RAypWQQnHp8=", "yfRQ7B1TfwE=" ],
 	"payment|protocol version 7|rescue account (was below reserve)" : [ "pyPqTd+ByY0=", "/lfj8xIFS8I=", "oplHUhuvbjQ=", "Z9p0KB8UdxI=" ],
-	"payment|protocol version 7|send XLM to a new account (no destination)" : [ "/lfj8xIFS8I=" ],
-	"payment|protocol version 7|send XLM to an existing account" : [ "Lx9ckWKr0S4=" ],
-	"payment|protocol version 7|send to self" : 
+	"payment|protocol version 7|send GRAM to a new account (no destination)" : [ "/lfj8xIFS8I=" ],
+	"payment|protocol version 7|send GRAM to an existing account" : [ "Lx9ckWKr0S4=" ],
+	"payment|protocol version 7|send to self" :
 	[
 		"8vz51UGSTgI=",
 		"WBQMMaGhHDw=",
@@ -6714,7 +6714,7 @@
 	"payment|protocol version 7|send to self|non existing asset with non existing issuer|without trustline" : [ "/lfj8xIFS8I=" ],
 	"payment|protocol version 7|simple credit|credit payment with no trust" : [ "/lfj8xIFS8I=" ],
 	"payment|protocol version 7|simple credit|credit sent to new account (no account error)" : [ "/lfj8xIFS8I=" ],
-	"payment|protocol version 7|simple credit|with trust" : 
+	"payment|protocol version 7|simple credit|with trust" :
 	[
 		"rn0Xn7J6AGQ=",
 		"/dSr+CMGqew=",
@@ -6725,7 +6725,7 @@
 		"4Nbm1erruzc=",
 		"vCmlwgzENn4="
 	],
-	"payment|protocol version 7|simple credit|with trust|missing issuer" : 
+	"payment|protocol version 7|simple credit|with trust|missing issuer" :
 	[
 		"riTjZxwG9go=",
 		"/lfj8xIFS8I=",
@@ -6736,7 +6736,7 @@
 	],
 	"payment|protocol version 7|simple credit|with trust|positive" : [ "p11w2Nkvdy4=", "gAN2F1zKkyI=" ],
 	"payment|protocol version 7|two payments, first breaking second" : [ "ns4DM4E40Nw=" ],
-	"payment|protocol version 8" : 
+	"payment|protocol version 8" :
 	[
 		"c8f9ZedQpBg=",
 		"QSSZ34e/T04=",
@@ -6912,7 +6912,7 @@
 	],
 	"payment|protocol version 8|a pays b, then a merge into b" : [ "tC1VsNNRT18=", "6Cm6IY7Goqo=" ],
 	"payment|protocol version 8|a pays b, then b merge into a" : [ "tC1VsNNRT18=", "L64XLnXWjLE=" ],
-	"payment|protocol version 8|authorize flag|allow trust" : 
+	"payment|protocol version 8|authorize flag|allow trust" :
 	[
 		"fnuy736N9Sw=",
 		"I9qKntmJl7c=",
@@ -6946,9 +6946,9 @@
 	"payment|protocol version 8|pay, merge, create, pay, 3 accounts" : [ "HRGCodA7j/g=", "QQI/BCkhfPw=", "yPVJj9156JA=", "Y91Ev2QqyL4=" ],
 	"payment|protocol version 8|pay, merge, create, pay, self" : [ "HRGCodA7j/g=", "RAypWQQnHp8=", "yfRQ7B1TfwE=" ],
 	"payment|protocol version 8|rescue account (was below reserve)" : [ "pyPqTd+ByY0=", "/lfj8xIFS8I=", "oplHUhuvbjQ=", "Z9p0KB8UdxI=" ],
-	"payment|protocol version 8|send XLM to a new account (no destination)" : [ "/lfj8xIFS8I=" ],
-	"payment|protocol version 8|send XLM to an existing account" : [ "Lx9ckWKr0S4=" ],
-	"payment|protocol version 8|send to self" : 
+	"payment|protocol version 8|send GRAM to a new account (no destination)" : [ "/lfj8xIFS8I=" ],
+	"payment|protocol version 8|send GRAM to an existing account" : [ "Lx9ckWKr0S4=" ],
+	"payment|protocol version 8|send to self" :
 	[
 		"8vz51UGSTgI=",
 		"WBQMMaGhHDw=",
@@ -7077,7 +7077,7 @@
 	"payment|protocol version 8|send to self|non existing asset with non existing issuer|without trustline" : [ "/lfj8xIFS8I=" ],
 	"payment|protocol version 8|simple credit|credit payment with no trust" : [ "/lfj8xIFS8I=" ],
 	"payment|protocol version 8|simple credit|credit sent to new account (no account error)" : [ "/lfj8xIFS8I=" ],
-	"payment|protocol version 8|simple credit|with trust" : 
+	"payment|protocol version 8|simple credit|with trust" :
 	[
 		"rn0Xn7J6AGQ=",
 		"/dSr+CMGqew=",
@@ -7088,7 +7088,7 @@
 		"4Nbm1erruzc=",
 		"vCmlwgzENn4="
 	],
-	"payment|protocol version 8|simple credit|with trust|missing issuer" : 
+	"payment|protocol version 8|simple credit|with trust|missing issuer" :
 	[
 		"riTjZxwG9go=",
 		"/lfj8xIFS8I=",
@@ -7099,7 +7099,7 @@
 	],
 	"payment|protocol version 8|simple credit|with trust|positive" : [ "p11w2Nkvdy4=", "gAN2F1zKkyI=" ],
 	"payment|protocol version 8|two payments, first breaking second" : [ "ns4DM4E40Nw=" ],
-	"payment|protocol version 9" : 
+	"payment|protocol version 9" :
 	[
 		"c8f9ZedQpBg=",
 		"QSSZ34e/T04=",
@@ -7275,7 +7275,7 @@
 	],
 	"payment|protocol version 9|a pays b, then a merge into b" : [ "tC1VsNNRT18=", "6Cm6IY7Goqo=" ],
 	"payment|protocol version 9|a pays b, then b merge into a" : [ "tC1VsNNRT18=", "L64XLnXWjLE=" ],
-	"payment|protocol version 9|authorize flag|allow trust" : 
+	"payment|protocol version 9|authorize flag|allow trust" :
 	[
 		"fnuy736N9Sw=",
 		"I9qKntmJl7c=",
@@ -7309,9 +7309,9 @@
 	"payment|protocol version 9|pay, merge, create, pay, 3 accounts" : [ "HRGCodA7j/g=", "QQI/BCkhfPw=", "yPVJj9156JA=", "Y91Ev2QqyL4=" ],
 	"payment|protocol version 9|pay, merge, create, pay, self" : [ "HRGCodA7j/g=", "RAypWQQnHp8=", "yfRQ7B1TfwE=" ],
 	"payment|protocol version 9|rescue account (was below reserve)" : [ "pyPqTd+ByY0=", "/lfj8xIFS8I=", "oplHUhuvbjQ=", "Z9p0KB8UdxI=" ],
-	"payment|protocol version 9|send XLM to a new account (no destination)" : [ "/lfj8xIFS8I=" ],
-	"payment|protocol version 9|send XLM to an existing account" : [ "Lx9ckWKr0S4=" ],
-	"payment|protocol version 9|send to self" : 
+	"payment|protocol version 9|send GRAM to a new account (no destination)" : [ "/lfj8xIFS8I=" ],
+	"payment|protocol version 9|send GRAM to an existing account" : [ "Lx9ckWKr0S4=" ],
+	"payment|protocol version 9|send to self" :
 	[
 		"8vz51UGSTgI=",
 		"WBQMMaGhHDw=",
@@ -7440,7 +7440,7 @@
 	"payment|protocol version 9|send to self|non existing asset with non existing issuer|without trustline" : [ "/lfj8xIFS8I=" ],
 	"payment|protocol version 9|simple credit|credit payment with no trust" : [ "/lfj8xIFS8I=" ],
 	"payment|protocol version 9|simple credit|credit sent to new account (no account error)" : [ "/lfj8xIFS8I=" ],
-	"payment|protocol version 9|simple credit|with trust" : 
+	"payment|protocol version 9|simple credit|with trust" :
 	[
 		"rn0Xn7J6AGQ=",
 		"/dSr+CMGqew=",
@@ -7451,7 +7451,7 @@
 		"4Nbm1erruzc=",
 		"vCmlwgzENn4="
 	],
-	"payment|protocol version 9|simple credit|with trust|missing issuer" : 
+	"payment|protocol version 9|simple credit|with trust|missing issuer" :
 	[
 		"riTjZxwG9go=",
 		"/lfj8xIFS8I=",

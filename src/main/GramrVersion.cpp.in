@@ -1,0 +1,3 @@
+#include "main/GramrVersion.h"
+
+const std::string GRAMR_VERSION = "%%VERSION%%";

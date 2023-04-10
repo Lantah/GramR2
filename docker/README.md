@@ -6,26 +6,26 @@ helper scripts and Makefile for convenience
 ## Dockerfile
 
 This file is used to build the official docker image published in dockerhub.
-It uses the official stellar-core deb package for two reasons:
+It uses the official gramr deb package for two reasons:
 1. To ensure docker and non-docker environments run the same build
 2. To allow binaries to be cryptographically verified
 
-To build set `STELLAR_CORE_VERSION` to deb package version you want installed.
+To build set `GRAMR_VERSION` to deb package version you want installed.
 For example:
 ```
-export STELLAR_CORE_VERSION=17.0.0-557.096f6a7.focal
-export TAG=${USER}/stellar-core:${STELLAR_CORE_VERSION}
+export GRAMR_VERSION=17.0.0-557.096f6a7.focal
+export TAG=${USER}/gramr:${GRAMR_VERSION}
 make docker-build
 ```
 
 ## Dockerfile.testing
 
-This is a Dockerfile for one-off builds of stellar-core during development.
+This is a Dockerfile for one-off builds of gramr during development.
 
 It enables the protocol-next by default, assuming you're using it for
 testing features that are not yet ready for production.
 
-It's intended to be run from the stellar-core source directory of a
+It's intended to be run from the gramr source directory of a
 developer's workstation to make a test buid that can be run in kubernetes
 without passing through any of the normal CI process. As such it is as small
 and quick as possible, using ubuntu linux and neither building nor installing
@@ -40,7 +40,7 @@ user repositories for testing purposes.
 
 To use this file, run something like the following at the top of this repository:
 ```
-export TAG=${USER}/stellar-core:$(git describe --always --tags --long)
+export TAG=${USER}/gramr:$(git describe --always --tags --long)
 docker build -f docker/Dockerfile.testing . -t $TAG
 ```
 

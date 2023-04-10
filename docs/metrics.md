@@ -1,8 +1,8 @@
 ---
-title: List of metrics exposed by stellar-core
+title: List of metrics exposed by gramr
 ---
 
-stellar-core uses libmedida for computing metrics, a detailed description can
+gramr uses libmedida for computing metrics, a detailed description can
 be found at http://dln.github.io/medida/
 
 ### Counters (`NewCounter`)
@@ -146,4 +146,3 @@ scp.timing.self-to-others-externalize-lag| timer     | delay between local node 
 scp.value.invalid                        | meter     | SCP value is invalid
 scp.value.valid                          | meter     | SCP value is valid
 scp.slot.values-referenced               | histogram | number of values referenced per consensus round
-

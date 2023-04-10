@@ -7,20 +7,13 @@ The [admin guide](software/admin.md) covers this in great detail.
 
 You can run production Watchers and Validators.
 
-### Debian packages
-On Linux, the easiest is to install core using a [pre-packaged debian release](https://github.com/stellar/packages).
-
-### Quick Start Docker image
-You can use the [quickstart](https://github.com/stellar/docker-stellar-core-horizon)
-image to run the latest stable and release candidate stellar-core with Docker.
-
 ### Dev container
 Using vscode and the [container support in Visual Studio Code](../.devcontainer/README.md)
-you can quickly build and run a stellar-core instance from your machine.
+you can quickly build and run a gramr instance from your machine.
 
 ## Builds with testing hooks enabled
 Builds from the stable repos are built with `--disable-tests` which removes test hooks from the build.
-You can check if the build that you're using has them if `stellar-core help` returns help for the `test` subcommand:
+You can check if the build that you're using has them if `gramr help` returns help for the `test` subcommand:
 ```
   test                              execute test suite
 ```
@@ -28,7 +21,7 @@ You can check if the build that you're using has them if `stellar-core help` ret
 ## Interacting with a running instance
 
 You can invoke the http admin interface with either an http client `curl http://localhost:11626/peers`
-or using the `http-command` sub-command `stellar-core http-command peers`
+or using the `http-command` sub-command `gramr http-command peers`
 
 ### Logging
 You can change log level using the `ll` command.
@@ -37,7 +30,7 @@ Log level can be controlled at the partition level.
 There is a special partition called `perf` that tries to give a good view of performance
 critical tasks.
 
-A special command `logrotate` can be used in conjunction with log rotation tools. 
+A special command `logrotate` can be used in conjunction with log rotation tools.
 
 ### Metrics
 Core keeps tracks of [internal metrics](metrics.md), which includes all sorts of data about
@@ -115,7 +108,7 @@ insecure connection, this will only be discovered after catchup is complete, whe
 join a network and acquire consensus. Until then, the node risks being exposed to (and replaying)
 malformed input from the archive.
 
-In order to mitigate this risk, stellar-core can emit a "reference file" full of trusted hashes for
+In order to mitigate this risk, gramr can emit a "reference file" full of trusted hashes for
 the ledgers of checkpoints, anchored in an SCP consensus ledger value observed on the network it is
 configured to trust.
 
@@ -148,7 +141,7 @@ worthwhile to save and reuse such a trusted reference file multiple times before
 
 ##### Experimental fast "meta data generation"
 `catchup` has a command line flag `--in-memory` that when combined with the
-`METADATA_OUTPUT_STREAM` allows a stellar-core instance to stream meta data instead
+`METADATA_OUTPUT_STREAM` allows a gramr instance to stream meta data instead
 of using a database as intermediate store.
 
 This has been tested as being orders of magnitude faster for replaying large sections
@@ -201,7 +194,7 @@ This can be useful to automate processing of data from archives from shell scrip
 ```
 Last history checkpoint {
     "version": 1,
-    "server": "stellar-core 12.3.0 (5a8f8b13af5f78704bf0e7b5de4314c16a3639a5)",
+    "server": "gramr 12.3.0 (5a8f8b13af5f78704bf0e7b5de4314c16a3639a5)",
     "currentLedger": 89663,
     "currentBuckets": [
         {
@@ -292,7 +285,7 @@ off binary or base64 encoded data.
 By default it tries to automatically detect the XDR type.
 
 ```
-stellar-core print-xdr --base64 tx-result.txt
+gramr print-xdr --base64 tx-result.txt
 TransactionResult = {
   feeCharged = 100,
   result = {
@@ -320,7 +313,7 @@ You can sign transactions with the `sign-transaction` command.
 You can generate a new Stellar public/private key with the `gen-seed` command.
 
 ```
-stellar-core.exe gen-seed
+gramr.exe gen-seed
 Secret seed: SAHP7BHVCCJ6BUYT56IMKQDMQT3HRGSRTEAQ2JAUXNQ7UQ7OFDN4Y2WS
 Public: GDJLE5FAS4RVCWXAXUU226TGKXCAX7WFRNVCP75BNPWOUW7QSLKZZTUH
 ```
@@ -328,14 +321,14 @@ Public: GDJLE5FAS4RVCWXAXUU226TGKXCAX7WFRNVCP75BNPWOUW7QSLKZZTUH
 The command `convert-id` allows you to quickly see various representation of a given key.
 
 ```
-stellar-core convert-id GDJLE5FAS4RVCWXAXUU226TGKXCAX7WFRNVCP75BNPWOUW7QSLKZZTUH
+gramr convert-id GDJLE5FAS4RVCWXAXUU226TGKXCAX7WFRNVCP75BNPWOUW7QSLKZZTUH
 PublicKey:
   strKey: GDJLE5FAS4RVCWXAXUU226TGKXCAX7WFRNVCP75BNPWOUW7QSLKZZTUH
   hex: d2b274a09723515ae0bd29ad7a6655c40bfec58b6a27ffa16becea5bf092d59c
 ```
 
-### Low privilege stellar-core
+### Low privilege gramr
 It's possible to perform the schema updates in isolation using
 `  upgrade-db                        upgrade database schema to current version`
 
-This allows to use credentials without schema update rights for stellar-core.
+This allows to use credentials without schema update rights for gramr.

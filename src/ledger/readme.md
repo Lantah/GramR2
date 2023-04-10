@@ -33,7 +33,7 @@ One can think of the historical chain as a linked list of LedgerHeaders:
 Each LedgerHeader has many references described below.
 
 Some key properties are directly inside the LedgerHeader such as the number of
-lumens present at a given time.
+grams present at a given time.
 
 ## Back references
 The way a ledger header refers to a previous ledger is actually done with
@@ -201,4 +201,3 @@ The resulting set is used to compute the hash of the entire set of
 Ledger Entries.
 
 See [`src/bucket/readme.md`](../bucket/readme.md) for more detail.
-

@@ -3,13 +3,13 @@ title: Commands
 replacement: https://developers.stellar.org/docs/run-core-node/commands/
 ---
 
-stellar-core can be controlled via the following commands.
+gramr can be controlled via the following commands.
 
 ## Common options
 Common options can be placed at any place in the command line.
 
 * **--conf <FILE-NAME>**: Specify a config file to use. You can use 'stdin' and
-  provide the config file via STDIN. *default 'stellar-core.cfg'*
+  provide the config file via STDIN. *default 'gramr.cfg'*
 * **--ll <LEVEL>**: Set the log level. It is redundant with `http-command ll`
   but we need this form if you want to change the log level during test runs.
 * **--metric <METRIC-NAME>**: Report metric METRIC on exit. Used for gathering
@@ -33,7 +33,7 @@ Command options can only by placed after command.
   exit. Useful for determining the public key that corresponds to a given
   private key. For example:
 
-`$ stellar-core convert-id SDQVDISRYN2JXBS7ICL7QJAEKB3HWBJFP2QECXG7GZICAHBK4UNJCWK2`
+`$ gramr convert-id SDQVDISRYN2JXBS7ICL7QJAEKB3HWBJFP2QECXG7GZICAHBK4UNJCWK2`
 * **dump-ledger**: Dumps the current ledger state from bucket files into
     JSON **--output-file** with optional filtering. **--last-ledgers** option
     allows to only dump the ledger entries that were last modified within that
@@ -46,9 +46,9 @@ Command options can only by placed after command.
     encoded strings, hashes as hex strings etc. Filtering is useful to minimize
     the output JSON size and then optionally process it further with tools like
     `jq`. Query filter examples:
-    
+
     * `data.type == 'OFFER'` - dump only offers
-    * `data.account.accountID == 'GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' || 
+    * `data.account.accountID == 'GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' ||
        data.trustLine.accountID == "GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"`
        - dump only account and trustline entries for the specified account.
     * `data.account.inflationDest != NULL` - dump accounts that have an optional
@@ -58,20 +58,20 @@ Command options can only by placed after command.
        dump offers that are selling the specified asset.
     * `data.trustLine.ext.v1.liabilities.buying < data.trustLine.ext.v1.liabilities.selling` -
       dump trustlines that have buying liabilites less than selling liabilites
-    * `(data.account.balance < 100000000 || data.account.balance >= 2000000000) 
-       && data.account.numSubEntries > 2` - dump accounts with certain balance 
+    * `(data.account.balance < 100000000 || data.account.balance >= 2000000000)
+       && data.account.numSubEntries > 2` - dump accounts with certain balance
        and sub entries count, demonstrates more complex expression
-   
-   This command may also be used to aggregate ledger data to a CSV table using all 
+
+   This command may also be used to aggregate ledger data to a CSV table using all
    the above options in combination with **--agg** and (optionally) **--group-by**.
    **--agg** supports the following aggregation functions: `sum`, `avg` and `count`.
    For example:
 
    * `--group-by "data.type" --agg "count()"` - find the count of entries per type.
-   * `--group-by "data.offer.selling.assetCode, data.offer.selling.issuer" 
+   * `--group-by "data.offer.selling.assetCode, data.offer.selling.issuer"
       --agg "sum(data.offer.amount), avg(data.offer.amount)"` - find the total offer
       amount and average offer amount per selling offer asset name and issuer.
-   
+
    See more examples in [ledger_query_examples.md](ledger_query_examples.md).
 
 * **dump-xdr <FILE-NAME>**:  Dumps the given XDR file and then exits.
@@ -82,16 +82,16 @@ Command options can only by placed after command.
 * **gen-seed**: Generate and print a random public/private key and then exit.
 * **help**: Print the available command line options and then exit..
 * **http-command <COMMAND>** Send an [HTTP command](#http-commands) to an
-  already running local instance of stellar-core and then exit. For example: 
+  already running local instance of gramr and then exit. For example:
 
-`$ stellar-core http-command info`
+`$ gramr http-command info`
 
 * **load-xdr <FILE-NAME>**:  Load an XDR bucket file, for testing.
 * **new-db**: Clears the local database and resets it to the genesis ledger. If
   you connect to the network after that it will catch up from scratch.
 * **new-hist <HISTORY-LABEL> ...**:  Initialize the named history archives
   HISTORY-LABEL. HISTORY-LABEL should be one of the history archives you have
-  specified in the stellar-core.cfg. This will write a
+  specified in the gramr.cfg. This will write a
   `.well-known/stellar-history.json` file in the archive root.
 * **offline-info**: Returns an output similar to `--c info` for an offline
   instance, but written directly to standard output (ignoring log levels).
@@ -106,7 +106,7 @@ Command options can only by placed after command.
   is on checkpoint boundary.
 * **report-last-history-checkpoint**: Download and report last history
   checkpoint from a history archive.
-* **run**: Runs stellar-core service.<br>
+* **run**: Runs gramr service.<br>
   Option **--wait-for-consensus** lets validators wait to hear from the network
   before participating in consensus.<br>
   Option **--in-memory** stores the current ledger in memory rather than a
@@ -126,7 +126,7 @@ Command options can only by placed after command.
   such as `base64`).  The private signing key is read from standard input,
   unless <FILE-NAME> is "stdin" in which case the transaction envelope is read from
   standard input and the signing key is read from `/dev/tty`.  In either event,
-  if the signing key appears to be coming from a terminal, stellar-core
+  if the signing key appears to be coming from a terminal, gramr
   disables echo. Note that if you do not have a STELLAR_NETWORK_ID environment
   variable, then before this argument you must specify the --netid option. For
   example, the production stellar network is "`Public Global Stellar Network ;
@@ -135,7 +135,7 @@ Command options can only by placed after command.
   Option --base64 alters the behavior to work on base64-encoded XDR rather than
   raw XDR.
 * **test**: Run all the unit tests.
-  * Suboptions specific to stellar-core:
+  * Suboptions specific to gramr:
       * `--all-versions` : run with all possible protocol versions
       * `--version <N>` : run tests for protocol version N, can be specified
       multiple times (default latest)
@@ -145,9 +145,9 @@ Command options can only by placed after command.
     on possible options for test.
   * For example this will run just the tests tagged with `[tx]` using protocol
     versions 9 and 10 and stop after the first failure:
-    `stellar-core test -a --version 9 --version 10 "[tx]"`
+    `gramr test -a --version 9 --version 10 "[tx]"`
 * **upgrade-db**: Upgrades local database to current schema version. This is
-  usually done automatically during stellar-core run or other command.
+  usually done automatically during gramr run or other command.
 * **verify-checkpoints**: Listens to the network until it observes a consensus
   hash for a checkpoint ledger, and then verifies the entire earlier history
   of an archive that ends in that ledger hash, writing the output to a reference
@@ -157,8 +157,8 @@ Command options can only by placed after command.
 * **version**: Print version info and then exit.
 
 ## HTTP Commands
-By default stellar-core listens for connections from localhost on port 11626. 
-You can send commands to stellar-core via a web browser, curl, or using the --c 
+By default gramr listens for connections from localhost on port 11626.
+You can send commands to gramr via a web browser, curl, or using the --c
 command line option (see above). Most commands return their results in JSON
 format.
 
@@ -241,7 +241,7 @@ format.
   Sets or creates a cursor identified by `ID` with value `N`. ID is an
   uppercase AlphaNum, N is an uint32 that represents the last ledger sequence
   number that the instance ID processed. Cursors are used by dependent services
-  to tell stellar-core which data can be safely deleted by the instance. The
+  to tell gramr which data can be safely deleted by the instance. The
   data is historical data stored in the SQL tables such as txhistory or
   ledgerheaders. When all consumers processed the data for ledger sequence N
   the data can be safely removed by the instance. The actual deletion is
@@ -276,7 +276,7 @@ format.
   * `upgrades?mode=clear`<br>
     Clears any upgrade settings.<br>
   * `upgrades?mode=set&upgradetime=DATETIME&[basefee=NUM]&[basereserve=NUM]&[maxtxsetsize=NUM]&[protocolversion=NUM]`<br>
-    * `upgradetime` is a required date (UTC) in the form `1970-01-01T00:00:00Z`. 
+    * `upgradetime` is a required date (UTC) in the form `1970-01-01T00:00:00Z`.
         It is the time the upgrade will be scheduled for. If it is in the past
         by less than 12 hours, the upgrade will occur immediately. If it's more
         than 12 hours, then the upgrade will be ignored<br>
@@ -284,12 +284,12 @@ format.
         stroops<br>
     * `basereserve` (uint32) This is what you would prefer the base reserve to
         be. It is in stroops.<br>
-    * `maxtxsetsize` (uint32) This defines the maximum number of operations in 
-        the transaction set to include in a ledger. When too many transactions 
-        are pending, surge pricing is applied. The instance picks the 
-        transactions from the transaction queue locally to be considered in the 
+    * `maxtxsetsize` (uint32) This defines the maximum number of operations in
+        the transaction set to include in a ledger. When too many transactions
+        are pending, surge pricing is applied. The instance picks the
+        transactions from the transaction queue locally to be considered in the
         next ledger until at most `maxtxsetsize` operations are accumulated.
-        Transactions are ordered by fee per operation (transactions with lower 
+        Transactions are ordered by fee per operation (transactions with lower
         operation fees are held for later)
         <br>
     * `protocolversion` (uint32) defines the protocol version to upgrade to.
@@ -310,8 +310,8 @@ format.
   for, and `NODE_ID` is the public key you will add to the backlog to survey.
   Running this command while the survey is running will add the node to the
   backlog and reset the timer to run for `DURATION` seconds. By default, this
-  node will respond to/relay a survey message if the message originated 
-  from a node in it's transitive quorum. This behaviour can be overridden by adding 
+  node will respond to/relay a survey message if the message originated
+  from a node in it's transitive quorum. This behaviour can be overridden by adding
   keys to `SURVEYOR_KEYS` in the config file, which will be the set of keys to check
   instead of the transitive quorum. If you would like to opt-out of this survey mechanism,
   just set `SURVEYOR_KEYS` to `$self` or a bogus key
@@ -373,6 +373,6 @@ format.
 * **testtx**
   `testtx?from=F&to=T&amount=N&[create=true]`<br>
   Injects a payment transaction (or a create transaction if "create" is
-  specified) from the account F to the account T, sending N XLM to the account.
+  specified) from the account F to the account T, sending N GRAM to the account.
   Note that F and T are seed strings but can also be specified as "root" as
   shorthand for the root account for the test instance.
