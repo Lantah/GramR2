@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="overlay">
@@ -1324,6 +1324,15 @@
     <ClCompile Include="..\..\src\bucket\BucketIndexImpl.cpp">
       <Filter>bucket</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\ledger\NetworkConfig.cpp">
+      <Filter>ledger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\overlay\FlowControl.cpp">
+      <Filter>overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\overlay\FlowControlCapacity.cpp">
+      <Filter>overlay</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\lib\util\cpptoml.h">
@@ -2262,6 +2271,9 @@
     <ClInclude Include="src\$(Configuration)\generated\xdr\Stellar-transaction.h">
       <Filter>xdr\generated</Filter>
     </ClInclude>
+    <ClInclude Include="src\$(Configuration)\generated\xdr\Stellar-contract-config-setting.h">
+      <Filter>xdr\generated</Filter>
+    </ClInclude>
     <ClInclude Include="src\$(Configuration)\generated\xdr\Stellar-types.h">
       <Filter>xdr\generated</Filter>
     </ClInclude>
@@ -2307,6 +2319,15 @@
     </ClInclude>
     <ClInclude Include="..\..\src\bucket\BucketIndexImpl.h">
       <Filter>bucket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ledger\NetworkConfig.h">
+      <Filter>ledger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\overlay\FlowControl.h">
+      <Filter>overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\overlay\FlowControlCapacity.h">
+      <Filter>overlay</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -2488,6 +2509,9 @@
       <Filter>xdr\next</Filter>
     </CustomBuild>
     <CustomBuild Include="..\..\src\protocol-next\xdr\Stellar-transaction.x">
+      <Filter>xdr\next</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\protocol-next\xdr\Stellar-contract-config-setting.x">
       <Filter>xdr\next</Filter>
     </CustomBuild>
     <CustomBuild Include="..\..\src\protocol-next\xdr\Stellar-types.x">
